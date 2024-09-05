@@ -30,8 +30,8 @@ npm install @shixinde/guoguo-cz
 
 ```
 
-<!--
-    扩展： 格式化工具  
+
+## 扩展： 格式化工具  
     
     安装
       npm install -D prettier pretty-quick
@@ -44,4 +44,4 @@ npm install @shixinde/guoguo-cz
 
     使用
       npm run lint | pnpm lint
--->
+
