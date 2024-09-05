@@ -7,7 +7,7 @@
 1. 安装依赖
 
 ```bash
-npm install -D cz-git
+npm install cz-customizable
 npm install @shixinde/guoguo-cz
 ```
 
@@ -16,14 +16,16 @@ npm install @shixinde/guoguo-cz
 在 package.json 中添加 `config.commitizen ` 配置
 
 ```js
-"scripts": {
+  "scripts": {
      "gitcz": "git-cz"
     },
-"config": {
+  "config": {
     "commitizen": {
-      "path": "node_modules/cz-git",
-      "czConfig": "node_modules/@shixinde/guoguo-cz/commitlint.config.cjs"
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "node_modules/@shixinde/guoguo-cz/commitlint.config.cjs"
     }
-  },
+  }
 
 ```
