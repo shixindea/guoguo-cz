@@ -31,5 +31,17 @@ npm install @shixinde/guoguo-cz
 ```
 
 <!--
-    扩展： 格式化工具  npm install -D prettier pretty-quick
+    扩展： 格式化工具  
+    
+    安装
+      npm install -D prettier pretty-quick
+
+     
+    执行
+      "scripts": {
+        "lint": "pretty-quick --staged",
+      },
+
+    使用
+      npm run lint | pnpm lint
 -->
