@@ -1,6 +1,6 @@
 {
   "name": "@shixinde/guoguo-cz",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "用于git cz 提交规范",
   "main": "commitlint.config.js",
   "files": [
