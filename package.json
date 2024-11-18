@@ -1,9 +1,10 @@
 {
   "name": "@shixinde/guoguo-cz",
-  "version": "2.0.2",
+  "version": "3.1.0",
   "description": "用于git cz 提交规范",
   "main": "commitlint.config.js",
   "files": [
+    "customizable.js",
     "commitlint.config.js"
   ],
   "engines": {
@@ -11,7 +12,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm version patch && npm publish"
+    "release": "npm version patch && npm publish",
+    "commit": "git add . && git commit -m 'feat: 版本更新' && git push"
   },
   "author": "yuanguoguo",
   "license": "Isc",
@@ -23,6 +25,6 @@
     "access": "public"
   },
   "dependencies": {
-    "cz-customizable": "^7.2.1"
+    "cz-customizable": "^6.9.2"
   }
 }
