@@ -7,6 +7,8 @@
 1. 安装依赖
 
 ```bash
+npm install -g commitizen  //全局安装  安装过可以不用安装
+
 npm install cz-customizable
 npm install @shixinde/guoguo-cz
 ```

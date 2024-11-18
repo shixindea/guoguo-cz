@@ -1,6 +1,6 @@
 {
   "name": "@shixinde/guoguo-cz",
-  "version": "3.1.0",
+  "version": "4.1.0",
   "description": "用于git cz 提交规范",
   "main": "commitlint.config.js",
   "files": [
@@ -12,8 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm version patch && npm publish",
-    "commit": "git add . && git commit -m 'feat: 版本更新' && git push"
+    "release": "npm version patch && npm publish"
   },
   "author": "yuanguoguo",
   "license": "Isc",
