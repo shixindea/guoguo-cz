@@ -1,6 +1,6 @@
 {
   "name": "@shixinde/guoguo-cz",
-  "version": "4.1.1",
+  "version": "6.0.0",
   "description": "袁果锅生态 - 用于git cz 提交规范",
   "main": "commitlint.config.js",
   "files": [
@@ -23,6 +23,6 @@
     "access": "public"
   },
   "dependencies": {
-    "cz-customizable": "^6.9.2"
+    "cz-git": "^1.11.0"
   }
 }

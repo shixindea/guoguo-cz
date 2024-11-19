@@ -1,21 +1,20 @@
-const { defineConfig } = require("cz-git");
-
 const theTypes = [
-  {
-    value: "wip",
-    name: "🎯  wip:             正在进行的工作",
-  },
+
   {
     value: "feat",
     name: "✨  feat:            新功能",
   },
   {
-    value: "config",
-    name: "⚙️   config:          各种项目配置",
-  },
-  {
     value: "fix",
     name: "🐞  fix:             bug 修复",
+  },
+  {
+    value: "wip",
+    name: "🎯  wip:             正在进行的工作",
+  },
+  {
+    value: "config",
+    name: "⚙️   config:          各种项目配置",
   },
   {
     value: "refactor",
@@ -74,8 +73,7 @@ const theTypes = [
     name: "📝  others:          其他改动",
   },
 ];
-
-module.exports = defineConfig({
+module.exports = {
   rules: {
     "type-enum": [2, "always", theTypes.map(({ value }) => value)],
   },
@@ -95,5 +93,6 @@ module.exports = defineConfig({
     allowCustomScopes: true,
     skipQuestions: ["scope", "breaking", "footer"],
     defaultScope: "___CUSTOM___:",
+
   },
-});
+}
